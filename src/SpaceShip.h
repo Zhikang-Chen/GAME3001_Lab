@@ -4,7 +4,7 @@
 #include "DisplayObject.h"
 #include "TextureManager.h"
 
-class SpaceShip : public DisplayObject
+class SpaceShip final : public DisplayObject
 {
 public:
 

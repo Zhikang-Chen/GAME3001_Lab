@@ -63,7 +63,10 @@ void PlayScene::start()
 {
 	// Set GUI Title
 	m_guiTitle = "Play Scene";
-	m_pSpaceShip = new SpaceShip;
+
+
+	
+	m_pSpaceShip = new SpaceShip();
 	m_pSpaceShip->getTransform()->position = glm::vec2(100.0f, 100.0f);
 	addChild(m_pSpaceShip);
 	
